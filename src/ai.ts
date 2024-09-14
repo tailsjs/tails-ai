@@ -46,11 +46,11 @@ export class AI {
         return response
     }
 
-    getLastMessage () {
+    private getLastMessage () {
         return this.messages.slice(-1)[0].content
     }
 
-    generateSignature (time: number) {
+    private generateSignature (time: number) {
         return createHash("sha256").update(`${time}:${this.getLastMessage()}:`).digest('hex') // ${secret}
     }
 
