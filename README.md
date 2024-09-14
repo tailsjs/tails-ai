@@ -18,4 +18,4 @@ await ai.request(); // Ну давай помогу. Смотри...
 ```
 
 # Остались вопросы или возникли трудности?
-Отписывайте в [issues](/https://github.com/tailsjs/tails-ai/issues/)!
+Отписывайте в [issues](/issues/)!
